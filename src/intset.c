@@ -333,7 +333,7 @@ int64_t intsetRandom(intset *is) {
  * out of range the function returns 0, when in range it returns 1. */
 
 /* 从整数集合中,取出底层数组(contents)在给定索引(pos)上的元素(*value)
- * 当给定索引超过整数集合的元素个数，则获取是被返回 0,否则获取成功且返回 1. */
+ * 当给定索引超过整数集合的元素个数，则获取失败返回 0,否则获取成功且返回 1. */
 uint8_t intsetGet(intset *is, uint32_t pos, int64_t *value) {
     if (pos < intrev32ifbe(is->length)) {
         *value = _intsetGet(is,pos);
