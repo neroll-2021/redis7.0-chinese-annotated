@@ -63,9 +63,9 @@ redis 仓库链接：https://github.com/redis/redis<br>
 | [geohash_helper.c](https://github.com/CN-annotation-team/redis7.0-chinese-annotated/blob/7.0-cn-annotated/src/geohash_helper.c) | geo 功能  | 完成 |
 | [rax.h](https://github.com/CN-annotation-team/redis7.0-chinese-annotated/blob/7.0-cn-annotated/src/rax.h) | Redis 压缩前缀树定义 | 完成 |
 | [rax.c](https://github.com/CN-annotation-team/redis7.0-chinese-annotated/blob/7.0-cn-annotated/src/rax.c) | Redis 压缩前缀树实现 | 过半 |
-|</p>|||
-|尚未有中文注释的文件不会出现在表格中。<br>|||
-|更新日期：2024/06/20|||
+</p>
+尚未有中文注释的文件不会出现在表格中。<br>
+更新日期：2024/06/20
 
 
 ## 关于提交 PR 的方法：
